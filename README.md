@@ -38,7 +38,7 @@ The output excel file will appear at **./Evaluation/pipeline/train/output**
 ### Download Files
 i-CTPA VLM part is fine-tuned based on Otter ([luodian/OTTER-MPT7B-Init](https://huggingface.co/luodian/OTTER-MPT7B-Init))
 
-Please place the FORTE keyword file [[https://docs.google.com/spreadsheets/d/1NtlDOHDoVNa_xrypH5J79_5ZxL-5mPzM/edit?usp=sharing&ouid=104290583109385210784&rtpof=true&sd=true](https://drive.google.com/file/d/1cSa9KYhfXShe7hveNmNXKif9K6SArOE0/view?usp=drive_link)] at **./data/** folder
+Please place the FORTE keyword file [[https://docs.google.com/spreadsheets](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/ywang687_jh_edu/IQB1ib3twVcvQ6X_2FS_WsVmAVCLIzn5F1JEqGau0UtHDe4?e=wdbDSh)] at **./data/** folder
 
 ### 1. Automatic Evaluation
 ```
