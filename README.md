@@ -2,7 +2,7 @@
 <p align="center" width="100%">
 <img src="overall_workflow.png"  width="100%" height="100%">
 </p>
-% [Paper Link](https://arxiv.org/abs/2407.02235)
+<!-- [Paper Link](https://arxiv.org/abs/2407.02235) -->
 
 ## Code
 > this repository is modified from https://github.com/Luodian/Otter
