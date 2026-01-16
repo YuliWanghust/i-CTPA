@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ### Download Files
 Place both the base model [luodian/OTTER-MPT7B-Init](https://huggingface.co/luodian/OTTER-MPT7B-Init/tree/main) and our instruction-tuned model hf folder [https://huggingface.co/Charliebear/BrainGPT] at **./checkpoint/** folder
 
-Place the external validation dataset (image file [https://drive.google.com/file/d/1iDLx7NqvTg8sBTVViQu5wq8OhPSovAo4/view?usp=drive_link] at the **./data/** folder
+Place the external validation dataset (image files) at the **./data/** folder
 ```
 bash ./eval.sh
 ```
@@ -62,7 +62,7 @@ python3 Automatic_evaluation.py
 python3 Sentence_pairing.py
 ```
 
-### 3. FORTE Evaluation (Keyword lists for Brain CT/ Chest CT/ Abdomen CT/ Chest X-ray are provided)
+### 3. FORTE Evaluation (Keyword lists for CTPA are provided)
 ```
 python3 FORTE.py
 ```
