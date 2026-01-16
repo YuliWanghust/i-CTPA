@@ -10,7 +10,7 @@
 ```
 git clone https://github.com/YuliWanghust/i-CTPA.git
 
-cd FORTE
+cd i-CTPA
 ```
 
 ## Set-up Environment
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ### Download Files
 Place both the base model [luodian/OTTER-MPT7B-Init](https://huggingface.co/luodian/OTTER-MPT7B-Init/tree/main) and our instruction-tuned model hf folder [https://huggingface.co/Charliebear/BrainGPT] at **./checkpoint/** folder
 
-Place the CQ500 external validation dataset (image file [https://drive.google.com/file/d/1iDLx7NqvTg8sBTVViQu5wq8OhPSovAo4/view?usp=drive_link] at the **./data/** folder
+Place the external validation dataset (image file [https://drive.google.com/file/d/1iDLx7NqvTg8sBTVViQu5wq8OhPSovAo4/view?usp=drive_link] at the **./data/** folder
 ```
 bash ./eval.sh
 ```
@@ -36,7 +36,7 @@ The output excel file will appear at **./Evaluation/pipeline/train/output**
 
 ## Evaluation
 ### Download Files
-BrainGPT is fine-tuned based on Otter ([luodian/OTTER-MPT7B-Init](https://huggingface.co/luodian/OTTER-MPT7B-Init))
+i-CTPA VLM part is fine-tuned based on Otter ([luodian/OTTER-MPT7B-Init](https://huggingface.co/luodian/OTTER-MPT7B-Init))
 
 Please place the FORTE keyword file [[https://docs.google.com/spreadsheets/d/1NtlDOHDoVNa_xrypH5J79_5ZxL-5mPzM/edit?usp=sharing&ouid=104290583109385210784&rtpof=true&sd=true](https://drive.google.com/file/d/1cSa9KYhfXShe7hveNmNXKif9K6SArOE0/view?usp=drive_link)] at **./data/** folder
 
@@ -65,9 +65,4 @@ python3 Sentence_pairing.py
 ### 3. FORTE Evaluation (Keyword lists for Brain CT/ Chest CT/ Abdomen CT/ Chest X-ray are provided)
 ```
 python3 FORTE.py
-```
-
-### 4. Negation removal
-```
-python3 Negation_removal.py
 ```
