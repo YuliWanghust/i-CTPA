@@ -1,4 +1,4 @@
-# Towards a Holistic Framework for Multimodal Large Language Models in Three-dimensional Brain CT Report Generation
+# Clinically validated vision–language foundation model for end-to-end CTPA interpretation and decision support in pulmonary embolism
 <p align="center" width="100%">
 <img src="overall_workflow.png"  width="100%" height="100%">
 </p>
