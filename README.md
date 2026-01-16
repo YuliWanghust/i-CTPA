@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ## Generate reports
 ### Download Files
-Place both the base model [luodian/OTTER-MPT7B-Init](https://huggingface.co/luodian/OTTER-MPT7B-Init/tree/main) and our instruction-tuned model hf folder [https://huggingface.co/Charliebear/BrainGPT] at **./checkpoint/** folder
+Place both the base model [luodian/OTTER-MPT7B-Init](https://huggingface.co/luodian/OTTER-MPT7B-Init/tree/main) and our instruction-tuned model hf folder [https://huggingface.co/Yuliiiiiiiione/i-CTPA/tree/main] at **./checkpoint/** folder
 
 Place the external validation dataset (image files) at the **./data/** folder
 ```
