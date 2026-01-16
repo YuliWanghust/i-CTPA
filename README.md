@@ -8,7 +8,7 @@
 > this repository is modified from https://github.com/Luodian/Otter
 
 ```
-git clone https://github.com/charlierabea/FORTE.git
+git clone https://github.com/YuliWanghust/i-CTPA.git
 
 cd FORTE
 ```
